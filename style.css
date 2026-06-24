@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  direction: rtl;
+}
+
+/* خلفية زي الصورة */
+.bg {
+  height: 100vh;
+  background: linear-gradient(135deg, #ff9a9e, #fecfef);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* الكارت */
+.card {
+  width: 380px;
+  background: #fff;
+  padding: 25px;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+/* العنوان */
+h1 {
+  color: #ff3b6b;
+  margin-bottom: 10px;
+}
+
+/* خط */
+.divider {
+  width: 60%;
+  height: 2px;
+  background: #ff6f91;
+  margin: auto;
+}
+
+/* السؤال */
+h2 {
+  margin: 15px 0;
+  color: #444;
+}
+
+/* الصورة */
+.image {
+  width: 100%;
+  border-radius: 20px;
+  margin: 15px 0;
+}
+
+/* الأزرار */
+.buttons {
+  margin: 20px 0;
+}
+
+button {
+  padding: 12px 25px;
+  margin: 10px;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* نعم */
+.yes {
+  background: linear-gradient(45deg, #ff4d6d, #ff758c);
+  color: white;
+}
+
+/* لا */
+.no {
+  background: #777;
+  color: white;
+  transition: 0.4s;
+}
+
+/* الرسالة */
+.text {
+  display: none;
+  background: #ffe4ec;
+  padding: 15px;
+  border-radius: 15px;
+  color: #ff3b6b;
+  margin-top: 15px;
+}
+
+/* خط تحت */
+.footer-line {
+  width: 40%;
+  height: 2px;
+  background: #ff6f91;
+  margin: 20px auto 0;
+}
